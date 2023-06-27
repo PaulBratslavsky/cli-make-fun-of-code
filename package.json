@@ -1,0 +1,22 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "description": "Comment, review and document code with Open AI.",
+  "main": "index.js",
+  "bin": {
+    "code-review": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Bratslavsky",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.0",
+    "chalk": "^5.2.0",
+    "commander": "^11.0.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0"
+  }
+}
